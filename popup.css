@@ -1,0 +1,12 @@
+:root { color-scheme: dark; font: 13px/1.5 system-ui, sans-serif; }
+body { min-width: 270px; max-width: 300px; margin: 0; color: #f3f4f6; background: #161c29; }
+main { padding: 16px; }
+h1 { font-size: 16px; margin: 0 0 10px; }
+h1 span { color: #82c8ff; }
+p { margin: 8px 0; }
+.site { overflow-wrap: anywhere; color: #a9bdd7; font-weight: 600; }
+#status { min-height: 20px; }
+button { background: #2879c7; color: white; border: 0; border-radius: 7px; width: 100%; padding: 9px; font: inherit; cursor: pointer; }
+button:disabled { opacity: .55; cursor: wait; }
+button.off { background: #344356; }
+.hint { color: #a9bdd7; font-size: 11px; margin-bottom: 0; }

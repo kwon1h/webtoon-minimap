@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Webtoon Minimap",
+  "version": "1.0.0",
+  "description": "원하는 사이트에서 웹툰 이미지 미니맵과 스페이스바 스크롤을 사용하세요.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Webtoon Minimap",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
